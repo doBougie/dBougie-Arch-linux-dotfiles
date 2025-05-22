@@ -1,0 +1,88 @@
+// this file is used to configure FastFetch
+// 1. You need to run : fastfetch --gen-config to generate a default configuration file that is located in ~/.config/fastfetch/config.jsonc
+// 2. You can then edit this file to customize the output of FastFetch
+
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "height": 18
+  },
+  "display": {
+    "separator": " : "
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": ""
+    },
+    {
+      "type": "custom",
+      "format": ""
+    },
+    {
+      "type": "os",
+      "key": "OS",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "kernel",
+      "key": "Kernel",
+      "keyColor": "magenta"
+    },
+    "break",
+    {
+      "type": "de",
+      "key": "DE",
+      "keyColor": "green"
+    },
+    {
+      "type": "wm",
+      "key": "WM",
+      "keyColor": "green" 
+    },
+    {
+      "type": "uptime",
+      "key": "Uptime",
+      "keyColor": "green"
+    },
+    "break",
+    {
+      "type": "media",
+      "key": "Music",
+      "keyColor": "white"
+    },
+    {
+      "type": "custom",
+      "key": "GitHub",
+      "format": "doBougie",
+      "keyColor": "white"
+    },
+    {
+      "type": "title",
+      "key": "User",
+      "keyColor": "white"
+    },
+    "break",
+    {
+      "type": "cpu",
+      "temp": true,
+      "format": "{1} {8}",
+      "key": "CPU",
+      "keyColor": "blue"
+    },
+    {
+      "type": "gpu",
+      "temp": true,
+      "format": "{2} {4}",
+      "key": "GPU",
+      "hideType": "integrated",
+      "keyColor": "blue"
+    },
+    {
+      "type": "memory",
+      "key": "Memory",
+      "keyColor": "blue"
+    },
+    "break"
+  ]
+}
