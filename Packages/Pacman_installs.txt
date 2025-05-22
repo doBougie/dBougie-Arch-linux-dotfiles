@@ -1,0 +1,12 @@
+
+
+
+
+
+//AUR Packages
+yay -S \
+    curseforge \
+    minecraft-launcher \
+    visual-studio-code-bin \
+    xone-dkms-git \
+    xpadneo-dkms
