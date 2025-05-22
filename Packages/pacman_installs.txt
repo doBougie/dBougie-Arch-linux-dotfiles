@@ -1,0 +1,20 @@
+//Pacman Packages
+
+sudo pacman -S \
+    bitwarden \
+    btop \
+    dbeaver \
+    discord \
+    discover # Seulement sur KDE Plasma \
+    fastfetch \
+    flatpak \
+    gimp \
+    git \
+    libreoffice-still \
+    nodejs \
+    npm \
+    nvidia-inst \
+    nvidia-open \
+    spotify-launcher \
+    steam \
+    thunderbird
