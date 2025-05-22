@@ -5,3 +5,5 @@ Example captured on KDE Plasma using EndavourOs
 
 FastFetch Config Example :
 ![image](https://github.com/user-attachments/assets/a16a564b-ac41-4308-b229-c27132e956f1)
+
+WallPapers : https://github.com/JaKooLit/Wallpaper-Bank/tree/main/wallpapers
